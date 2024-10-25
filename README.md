@@ -49,11 +49,11 @@ Using the GTFS model, create a specification for your game state. It's OK if it 
 | visible    | Boolean    | Optional | Whether the food can be seen. | 
 
 #### Field types:
-- Unique ID: An ID field value is an internal ID, not intended to be shown to riders, and is a sequence of any UTF-8 characters. Using only printable ASCII characters is recommended. An ID is labeled "unique ID" when it must be unique within a file. IDs defined in one .txt file are often referenced in another .txt file. IDs that reference an ID in another table are labeled "foreign ID".
-- Screen X: an integer between 0 and Screen Width
-- Screen Y: an integer between 0 and Screen Height
-- Screen Width: an integer that describes the width of the screen
-- Screen Height: an integer that describes the height of the screen
+- **Unique ID**: An ID field value is an internal ID, not intended to be shown to riders, and is a sequence of any UTF-8 characters. Using only printable ASCII characters is recommended. An ID is labeled "unique ID" when it must be unique within a file. IDs defined in one .txt file are often referenced in another .txt file. IDs that reference an ID in another table are labeled "foreign ID".
+- **Screen X**: an integer between 0 and Screen Width
+- **Screen Y**: an integer between 0 and Screen Height
+- **Screen Width**: an integer that describes the width of the screen
+- **Screen Height**: an integer that describes the height of the screen
 
 ### Group Tasks
 - Fully specify your game state
